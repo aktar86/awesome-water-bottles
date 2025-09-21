@@ -15,6 +15,7 @@ const Bottles = ({bottlesPromise}) => {
     return (
         <div >
             <p>Bottles: {bottles.length}</p>
+            <p>added to cart: {cart.length}</p>
             <div className='bottles-container'>
                 {
                     bottles.map(bottle => <Bottle key={bottle.id}
